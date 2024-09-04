@@ -139,7 +139,7 @@ jobs:
           fetch-depth: 2
 
       - name: Download Gitblit nightly build
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         id: get-gb
         with:
           name: gitblit-nightly
